@@ -1,0 +1,365 @@
+.visually-hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+  }
+  
+.header {
+    width: 100%;
+    height: 1080px;
+    background-color: #141024;
+}
+
+.header__logo {
+    width: 228px;
+    height: 48px;
+    padding-top: 30px;
+    padding-left: 100px;
+}
+
+.header__menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.header__links-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 38px;
+    gap: 40px;
+    font-size: 20px;
+}
+
+.header__links-list-items {
+    list-style-type: none;
+}
+
+.header__links-list-items_no-active {
+    text-decoration: none;
+    color: white;
+}
+
+.header__address {
+    display: flex;
+    justify-content: right;
+}
+
+.header__address-items {
+    padding-top: 30px;
+    padding-right: 100px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.header__info {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-top: 85px;
+    margin-left: 19.7%;
+    gap: 28px;
+    color: #fff;
+}
+
+.header__info__content {
+    padding-top: 182px;
+}
+
+.header__info__title {
+    width: 516px;
+    font-size: 70px;
+    font-weight: 600;
+}
+
+.header__info-text {
+    width: 478px;
+    margin-top: 20px;
+    font-size: 20px; 
+}
+
+.header__info__button {
+    width: 260px;
+    height: 79px;
+    margin-top: 50px;
+    border: none;
+    border-radius: 5px;
+    font-family: inherit;
+    font-size: 18px;
+    color: #fff;
+    background-color: #D52027;
+    cursor: pointer;
+}
+
+.header__image {
+    width: 783px;
+    height: 917.48px;
+}
+
+.about {
+    margin-top: 120px;
+    margin-left: 19.7%;
+}
+
+.about__text {
+    width: 891px;
+    font-size: 30px;
+}
+
+.about__text-bold {
+    font-weight: 600;
+}
+
+.about__list {
+    display: flex;
+    gap: 40px;
+    margin-top: 60px;
+}
+
+
+.about__list-items_title {
+    font-size: 70px;
+    color: #D52027;
+}
+
+.about__list-items_text {
+    width: 260px;
+    line-height: 28.8px;
+    font-size: 18px;
+    color: #141024B2;
+    ;
+}
+
+.about_10000 {
+    margin-left: 24px;
+}
+
+.leter {
+    height: 485px;
+    margin-top: 120px;
+    padding-left: 19.8%;
+    background-color: #F9F9F9;
+}
+
+.leter__title {
+    padding-top: 100px;
+    font-size: 50px;
+}
+
+.leter__list {
+    display: flex;
+    margin-top: 10px;
+    gap: 40px;
+}
+
+.leter__list-items_title {
+    font-size: 24px;
+}
+
+.leter__list-items_text {
+    width: 360px;
+    margin-top: 20px;
+    font-size: 18px;
+    color: #141024B2;
+}
+
+.leter__list-tablet {
+    width: 251px;
+    margin-left: 59.4%;
+    padding: 15px 20px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 5px 2px #1410241A;
+    text-align: center;
+    font-size: 16px;
+    color: #141024;
+}
+
+.coaches {
+    margin-top: 120px;
+    padding-left: 19.7%;
+}
+
+.coaches__title {
+    font-size: 50px;
+}
+
+.rate {
+    margin-top: 120px;
+    padding-left: 19.7%;
+}
+
+.rate__title {
+    font-size: 50px;
+}
+
+.rate__cards {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin-top: 60px;
+    position: relative;
+    z-index: 0;
+}
+
+.rate__package {
+    width: 360px;
+    height: 460px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #14102433;
+    border-radius: 20px;
+    
+        &:hover {
+            transform: scale(1.1);
+            /*height: 500px;*/
+            background-color: #141024;
+            color: #fff;
+            transition: all 0.3s ease-in;
+            margin: -1rem 0;
+        }
+}
+
+.rate__package-title {
+    padding-top: 40px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.rate__package-price {
+    padding-top: 63px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.rate__package-text {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.rate__package-button {
+    width: 280px;
+    height: 79px;
+    margin-top: 61px;
+    margin-bottom: 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #D52027;
+    color: #fff;
+    font-family: inherit;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.package-button_1 {
+    margin-top: 37px;
+}
+
+.footer {
+    margin-top: 140px;
+}
+
+.footer__red {
+    height: 460px;
+    background-color: #D52027;
+    background-image: url(IMG/Mask\ Group.png);
+}
+
+.footer__red__info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.footer__red_title {
+    padding-top: 106px;
+    padding-left: 440px;
+    font-size: 36px;
+    font-weight: 600;
+    color: #fff;
+    line-height: 46.8px;
+}
+
+.footer__red_text {
+    padding-top: 20px;
+    padding-left: 440px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.footer__red-input__box {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 87px;
+}
+
+.footer__red-input__box-items {
+    height: 64px;
+    padding-left: 4%;
+    border: none;
+    border-radius: 5px;
+    font-family: inherit;
+    font-size: 18px;
+}
+
+.footer__red-input__button {
+    height: 64px;
+    border: none;
+    border-radius: 5px;
+    font-family: inherit;
+    font-size: 18px;
+    background-color: #141024;
+    color: #fff;
+}
+
+.footer__blue {
+    height: 159px;
+    
+    /*padding-top: 40px;*/
+    background-color: #141024;
+}
+
+.footer__blue-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+
+.footer__blue-list-logo {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding-left: 100px;
+}
+
+.footer__blue-list-logo-image {
+    width: 239px;
+    height: 48px;
+}
+
+.footer__blue-list-text {
+    font-size: 16px;
+    color: #FFFFFFB2;
+}
+
+.footer__blue-list-address {
+    padding-right: 100px;
+}
+
+.footer__blue-list-address-items{
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+    font-style: normal;
+}
